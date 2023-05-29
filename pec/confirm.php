@@ -3,7 +3,7 @@
     
 
 
-	$PIN = 'RR6m11RBSEcn088UTp57';
+	$PIN = 'YOUR PIN CODE IN PEC.IR';
 	$wsdl_url = "https://pec.shaparak.ir/NewIPGServices/Confirm/ConfirmService.asmx?WSDL";
 	
 	
@@ -95,7 +95,7 @@ exit();
 
 $stat = $result->ConfirmPaymentResult->Status;
 $resid = $result->ConfirmPaymentResult->RRN;
-file_get_contents('https://raygansms.com/SendMessageWithCode.ashx?Username=rmoradi2019&Password=iqclsSQA1@1&Mobile=09052243521&Message=پرداخت'.$Amount.'');
+
 header("Location: https://sorenafile.ir/pay/pec/reciept?OrderId=$OrderId&Amount=$Amount&stat=$stat&resid=$resid");
 
 exit();
