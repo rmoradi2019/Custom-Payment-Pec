@@ -1,0 +1,17 @@
+[04-Mar-2023 08:23:29 UTC] PHP Notice:  Undefined variable: last_balance in /home/sorenafi/public_html/pay/pec/confirm.php on line 132
+[08-Mar-2023 08:38:01 UTC] PHP Notice:  Undefined index: sellidv in /home/sorenafi/public_html/pay/pec/confirm.php on line 95
+[08-Mar-2023 08:38:01 UTC] PHP Notice:  Undefined variable: last_seller_id in /home/sorenafi/public_html/pay/pec/confirm.php on line 120
+[08-Mar-2023 08:38:01 UTC] PHP Notice:  Undefined variable: last_seller_id in /home/sorenafi/public_html/pay/pec/confirm.php on line 130
+[08-Mar-2023 08:38:01 UTC] PHP Notice:  Undefined variable: last_balance in /home/sorenafi/public_html/pay/pec/confirm.php on line 132
+[25-Apr-2023 21:25:45 UTC] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx?WSDL' : failed to load external entity "https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx?WSDL"
+ in /home/sorenafi/public_html/pay/pec/payment.php:29
+Stack trace:
+#0 /home/sorenafi/public_html/pay/pec/payment.php(29): SoapClient->SoapClient('https://pec.sha...')
+#1 {main}
+  thrown in /home/sorenafi/public_html/pay/pec/payment.php on line 29
+[26-Apr-2023 00:09:27 UTC] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx?WSDL' : failed to load external entity "https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx?WSDL"
+ in /home/sorenafi/public_html/pay/pec/payment.php:29
+Stack trace:
+#0 /home/sorenafi/public_html/pay/pec/payment.php(29): SoapClient->SoapClient('https://pec.sha...')
+#1 {main}
+  thrown in /home/sorenafi/public_html/pay/pec/payment.php on line 29
