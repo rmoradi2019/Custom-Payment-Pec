@@ -10,9 +10,9 @@ $_SESSION['sellidv'] = $seller;*/
 	ini_set ( "soap.wsdl_cache_enabled", "0" );
 	
 	
-	$PIN = 'RR6m11RBSEcn088UTp57';
+	$PIN = 'YOUR PIN CODE IN PEC.IR';
 	$wsdl_url = "https://pec.shaparak.ir/NewIPGServices/Sale/SaleService.asmx?WSDL";
-	$site_call_back_url = "https://sorenafile.ir/pay/pec/confirm";
+	$site_call_back_url = "https://example.com/pay/pec/confirm";
 	
     
 	$amount1 = $_POST['Amount'] ? $_POST['Amount'] : "100" ;
